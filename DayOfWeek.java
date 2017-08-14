@@ -1,3 +1,13 @@
+/**
+* Comilation: javac DayOfWeek.java
+* Execution: java DayOfWeek
+
+/**
+ * @author adesh varma
+ *version: 1.0
+ * status: 14- 08-2017
+ */
+
 package com.util;
 import java.util.Scanner;
 

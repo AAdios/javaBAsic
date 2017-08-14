@@ -1,31 +1,27 @@
 /**
-* Comilation: javac LeapYear.java 
-* Execution: java LeapYear
+* Comilation: javac WindChill.java
+* Execution: java WindChill
 
 /**
  * @author adesh varma
  *version: 1.0
  * status: 14- 08-2017
  */
-import java.util.Scanner;
-
-public class LeapYear 
-{
-
-		static int year; // static  variable declaration
-	public static void main(String[] args)
+package com.util;
+public class WindChill
 	{
-		System.out.println("Enter the year you want to check");
-		Scanner sc=new Scanner(System.in); // Creating the object of Scanner class
-		 year=sc.nextInt();  // Accepting i/p from the user;
-		if(year>1562)
+			static double windchill,t_Farenhite,v_WindSpeed;
+		public static void main (String []args)
 		{
-			if(year%4==0 && year%4==0)
-			{
-				System.out.println("this year is leap year:"+year);
-			}
-		}
-		else {System.out.println("this is not a leap year");}
-	}
+			// Accepting i/p for tempature in Farenhite and windSpeed in velocity from command prompt
 
-}
+			double t_Farenhite=Double.parseDouble(adc[0]);
+			double v_WindSpeed=Double.parseDouble(adc[1]);
+			// Formula to calculate windchill;
+			 windchill=35.74+(0.6215*t_Farenhite)+((0.4275*t_Farenhite)-35.75)*Math.pow(v_WindSpeed,0.16);
+			System.out.println("The Wind chill is"+w);
+
+
+		}
+
+	}

@@ -1,20 +1,29 @@
-//package com.util;
+/**
+* Comilation: javac RollDie.java
+* Execution: java RollDie
+
+/**
+ * @author adesh varma
+ *version: 1.0
+ * status: 14- 08-2017
+ */
+package com.util;
 import java.util.Scanner;
 public class RollDie
 {
-		static int Random_number,i,greater; // static variable declaration 
-		static int array[];	//  static array declaration 
+		static int Random_number,i,greater; // static variable declaration
+		static int array[];	//  static array declaration
 	public static void main(String []args)
 	{
               int array[]=new int[6];
 			System.out.println("Enter the no. of times you want a die to roll");
-			Scanner sc=new Scanner(System.in); // Scanner object creation 
+			Scanner sc=new Scanner(System.in); // Scanner object creation
 			int n=sc.nextInt(); // Accepting i/p from user
 			for(i=1;i<=n;i++)
 			{
 				int Random_number=(int)(Math.random()*6)+1; // generating random number and performing typeCasting from double to int;
 				System.out.println(Random_number);
-				switch(Random_number) 
+				switch(Random_number)
 					{
 						case 1:array[0]++;
 							break;
@@ -37,7 +46,7 @@ public class RollDie
 						{
 							greater=array[i];
 						}
-					}			
+					}
 				System.out.println("No. Repeated most is:"+greater);
 	}
 
