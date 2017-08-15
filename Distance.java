@@ -1,9 +1,9 @@
 /**
-* Comilation: javac WindChill.java
-* Execution: java WindChill
+* Comilation: javac Distance.java
+* Execution: java Distance
 
 /**
- * @author adesh varma
+ * @author Rahul maurya
  *version: 1.0
  * status: 14- 08-2017
  */

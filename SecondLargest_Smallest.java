@@ -3,7 +3,7 @@
 * Execution: java SecondLargest_Smallest
 
 /**
- * @author adesh varma
+ * @author rahul maurya
  *version: 1.0
  * status: 14- 08-2017
  */

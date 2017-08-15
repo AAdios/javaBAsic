@@ -3,7 +3,7 @@
 * Execution: java RollDie
 
 /**
- * @author adesh varma
+ * @author RAhul maurya
  *version: 1.0
  * status: 14- 08-2017
  */

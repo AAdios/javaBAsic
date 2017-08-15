@@ -3,7 +3,7 @@
 * Execution: java Carpayment
 
 /**
- * @author adesh varma
+ * @author Rahul maurya
  *version: 1.0
  * status: 14- 08-2017
  */

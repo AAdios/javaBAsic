@@ -3,7 +3,7 @@
 * Execution: java DayOfWeek
 
 /**
- * @author adesh varma
+ * @author Rahul Maurya
  *version: 1.0
  * status: 14- 08-2017
  */
