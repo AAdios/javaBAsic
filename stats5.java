@@ -1,30 +1,41 @@
+/***********************************************
+ * COMPILATION:javac Stats5  .java 
+ * EXECUTION :java Stats5 
+ *
+ *
+ *
+ * @Author: Adesh varma
+ *Version:1.0
+ *Date:13/08/2017
+*****************************************/ 
+import java.lang.Math;
 
-/**
-* Comilation: javac stats5.java
-* Execution: java stats5
-
-/**
- * @author adesh varma
- *version: 1.0
- * status: 14- 08-2017
- */
- package com.util;
- import java.util.Scanner;
-public class stats5
+public class Stats5 
 {
-	static double Maximum,Minimum,average;
-	static int counter;
-	public static void main(String []args)
-	{
-			int array a=new array[4];
-			for(counter=0;counter<=4;counter++)
-			{
-				int a[counter]=(int)Math.random()*6+1;
-				System.out.println(a[counter]);
 
-
-
-
-
-	}
+    /*variable i to control loop*/
+     static int i;
+     /*array to store five values*/
+     static double array[];
+     
+    public static void main(String[] args) 
+    {
+        //initialize array
+        array=new double[5];
+        /*storing 5 values in array*/
+        for(i=0;i<=4;i++)
+        {
+            array[i]=(Math.random());
+        }
+        //displaying values
+        System.out.println("The random values");
+        for(i=0;i<=4;i++)
+        {
+            
+            System.out.println(array[i]);
+        }
+        System.out.println("The average value:"+(array[0]+array[1]+array[2]+array[3]+array[4])/5);
+        System.out.println("The minimum value:"+(Math.min(array[0],Math.min(array[1],Math.min(array[2],Math.min(array[3],array[4]))))));
+        System.out.println("The minimum value:"+(Math.max(array[0],Math.max(array[1],Math.max(array[2],Math.max(array[3],array[4]))))));
+    }
 }
